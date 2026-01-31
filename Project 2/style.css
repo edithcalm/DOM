@@ -1,0 +1,35 @@
+.container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#color-box {
+    width: 300px;
+    height: 200px;
+    background-color: #3498db;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#change-color-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #2c3e50;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+#change-color-btn:hover {
+    background-color: #34495e;
+}
+
+#change-color-btn:active {
+    transform: scale(0.98);
+}
